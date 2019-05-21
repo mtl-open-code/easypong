@@ -1,0 +1,34 @@
+*.swp
+*.*~
+api/project.lock.json
+.DS_Store
+*.pyc
+api/nupkg/
+
+# Visual Studio Code
+api/.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+api/[Dd]ebug/
+api/[Dd]ebugPublic/
+api/[Rr]elease/
+api/[Rr]eleases/
+api/x64/
+api/x86/
+api/build/
+api/bld/
+api/[Bb]in/
+api/[Oo]bj/
+api/[Oo]ut/
+api/msbuild.log
+api/msbuild.err
+api/msbuild.wrn
