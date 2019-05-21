@@ -32,3 +32,25 @@ api/[Oo]ut/
 api/msbuild.log
 api/msbuild.err
 api/msbuild.wrn
+
+# Frontend
+# dependencies
+pwa/node_modules
+pwa/.pnp
+pwa/.pnp.js
+
+# testing
+pwa/coverage
+
+# production
+pwa/build
+
+# misc
+pwa/.env.local
+pwa/.env.development.local
+pwa/.env.test.local
+pwa/.env.production.local
+
+pwa/npm-debug.log*
+pwa/yarn-debug.log*
+pwa/yarn-error.log*
