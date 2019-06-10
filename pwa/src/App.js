@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import GoogleAuthButton from './components/GoogleAuthButton'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        LOGO
+        SUPER EASYPONG APPLICATION DE FEU
       </header>
       <main>
-        CONTENT
+        <GoogleAuthButton />
       </main>
     </div>
   );
